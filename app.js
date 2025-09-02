@@ -15,6 +15,8 @@ const Cart = require('./models/cart');
 // const cartRoutes = require('./routes/cart');
 // const adminRoutes = require('./routes/admin');
 
+app.set('views', path.join(__dirname, 'views'));    //vercel settings
+
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
