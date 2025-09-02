@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.3rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.login {
+  background: #007bff;
+}
+
+button.login:hover {
+  background: #0056b3;
+}
+
+button.signup {
+  background: #28a745;
+}
+
+button.signup:hover {
+  background: #218838;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.login-link {
+  color: #007bff;
+}
+
+a.login-link:hover {
+  text-decoration: underline;
+}
+
+a.signup-link {
+  color: #28a745;
+}
+
+a.signup-link:hover {
+  text-decoration: underline;
+}
+
+.otp {
+  display: none;
+}
+
+/* Nav bar */
+.nav-logo img {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+
+
+
+/* Home page */
+#carouselExampleInterval {
+  height: 85vh;
+}
+
+#carouselExampleInterval .carousel-item img {
+  height: 85vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.scroll {
+  background-color: gold;
+  color: white;
+  /* height: 15vh; */
+}
+
+.scroll button {
+  height: 7vh;
+  font-weight: 700;
+}
