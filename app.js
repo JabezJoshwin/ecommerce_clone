@@ -73,3 +73,5 @@ app.post("/login", (req, res) => {
 app.listen(8080, () => {
     console.log("App listening on 8080");
 });
+
+module.exports = app;
